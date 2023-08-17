@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+</head>
+<body>
+    <form action="/getForm" method="get">
+        <fieldset>
+            <legend>자기 소개</legend>
+            <label for="text" >이름</label>
+            <input type="text" name="name">
+            <br>
+
+            <label for="text">나이</label>
+            <input type="text" name="age">
+            <br>
+
+            <label for="text" >성별</label>
+            <input type="radio">
+            <label for="text" name="gender">남자</label>
+
+            <input type="radio">
+            <label for="text" name="gender">여자</label>
+            <br>
+
+            <label for="">주소</label>
+            <input type="search" name="address">
+            <br>
+
+            <label for="text">아무거나</label>
+            <button popovertarget="mypopover">클릭해봥</button>
+            <div id="mypopover" name="anything" popover>Popover content</div>
+
+        </fieldset>
+    </form>
+</body>
+</html>
